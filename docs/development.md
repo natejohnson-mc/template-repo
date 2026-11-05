@@ -30,6 +30,11 @@ and ownership against the
 
 ## Configuration
 
+The template maintainer owns the versioned [Codex configuration](../.codex/config.toml).
+It was copied from `home-media-server/.codex/config.toml` and is now maintained
+here as the repository's authoritative configuration for Codex. Edit this file
+directly to update the repository's model and reasoning settings.
+
 No project configuration schema or runtime environment is defined. Before
 introducing configuration or deployment tooling, document each location's path,
 component owner, authoritative source, versioning, consumer, and update method.
