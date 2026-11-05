@@ -27,6 +27,9 @@ Start with [repository instructions](AGENTS.md). Use the
    become established. Keep cross-repository instructions in the user's root
    `AGENTS.md`.
 
-Replace starter text as the project takes shape. Do not treat unconfigured
-sections as implemented tools or verified procedures. Keep every retained
-Markdown document reachable through links from `AGENTS.md`.
+Adapt the starter to the project's size and needs: consolidate or remove unused
+records and update the ownership map, instructions, and links together. Replace
+starter text as the project takes shape. Do not treat unconfigured sections as
+implemented tools or verified procedures. Use the
+[documentation rules](AGENTS.md#documentation-workflow) to decide what merits a
+maintained record and how readers will find it.

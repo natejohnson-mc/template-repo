@@ -14,6 +14,6 @@ commands, expected results, recovery steps, and known limits. Distinguish
 read-only inspection from commands that change state. Reference maintained
 tools rather than reproducing their implementation.
 
-Record individual execution results in the owning task or component record and
-link them from [project status](../status.md). Identify recovery procedures that
-have not been exercised.
+Use the [change workflow](../change-workflow.md#operational-changes) to decide
+where execution results belong and which evidence needs to be retained.
+Identify recovery procedures that have not been exercised.

@@ -13,11 +13,14 @@ No automated checks, hooks, or CI jobs are configured. Add the exact commands
 and expected results when they exist. Identify which checks run locally and in
 CI, their prerequisites, and any platform or integration limits.
 
-For documentation changes, verify that local links resolve and that every
-Markdown file is reachable from [repository instructions](../AGENTS.md) through
-inline links. Review the
-[documentation ownership rules](../AGENTS.md#documentation-ownership) before
-adding or duplicating a record.
+For documentation changes, verify that local links and heading anchors resolve
+and that retained Markdown files are reachable from
+[repository instructions](../AGENTS.md) through inline links, with the exception
+for explicitly invoked skills defined in the
+[documentation rules](../AGENTS.md#documentation-workflow). Review new and
+retained records for distinct purpose, lasting value, and duplication; passing
+link checks alone does not justify retaining a document. Follow the
+[ownership map](../AGENTS.md#documentation-ownership) when adapting the structure.
 
 ## Review and delivery
 

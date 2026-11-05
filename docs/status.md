@@ -6,15 +6,16 @@ new project, then replace this paragraph with its actual status.
 
 ## Active work
 
-No project work is recorded. Add entries with the item, current progress, a link
-to its owning record, and the next action. Keep detailed findings and validation
-evidence in that record.
+No project work is recorded. For ongoing work, add the item, current progress,
+a link to its owning record or pull request, and the next action. Link to
+findings and evidence instead of copying them here. Remove or condense resolved
+entries; this page is not a completed-task log.
 
 ## Pending verification
 
 No project verification is recorded. Distinguish completed implementation from
-checks still pending. Link each gap to the record that defines the expected
-result and how it will be checked.
+checks still pending. Link each gap to the record or pull request that defines
+the expected result and how it will be checked.
 
 Use [opportunities for improvement](../opportunities_for_improvement.md) for
 candidate work rather than duplicating a backlog here.
