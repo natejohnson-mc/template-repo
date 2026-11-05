@@ -13,6 +13,9 @@ For personal instructions that apply across repositories, copy the
 root `AGENTS.md`. That document is a reusable example for users, not repository
 instructions.
 
+The repository's [Codex configuration](.codex/config.toml) is maintained as
+described in [Development: configuration](docs/development.md#configuration).
+
 ## Use this template
 
 1. Create a repository from this template. Replace this README with the
