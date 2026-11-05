@@ -6,7 +6,12 @@ environment, CI configuration, or deployment tooling.
 
 Use [repository instructions](AGENTS.md#task-routing-and-ownership) to find the
 authoritative section for a task. The starter keeps related guidance in sections
-of five files rather than separate placeholder documents.
+of five core files rather than separate placeholder documents.
+
+For personal instructions that apply across repositories, copy the
+[user root AGENTS.md preferences](docs/user-root-agents.md) into your user-level
+root `AGENTS.md`. That document is a reusable example for users, not repository
+instructions.
 
 ## Use this template
 
