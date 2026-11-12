@@ -56,10 +56,32 @@ replacement. Routine fixes do not need decision records.
 Keep personal preferences and cross-repository rules in the user's root
 instructions.
 
-## Repository-specific instructions and skills
+## Directory agent files
 
-Add directory-specific `AGENTS.md` files only where additional recurring rules
-are needed. Link them from the routing table or owning record.
+Treat `AGENTS.md` as the working interface to its directory and subtree. Keep
+one authoritative agent file at the root and one at each module boundary that
+needs recurring guidance on navigation, reuse, or local rules. Directories
+without a local file use the nearest ancestor's guide.
+
+Keep each guide short and focused on the decisions contributors need to make.
+
+- State what the directory owns and when to work there.
+- Explain when to use each immediate child directory that contributors need to
+  navigate. Link its guide or owning record when it has one.
+- Name the files, commands, or APIs contributors should start with. Point to
+  shared tools and the supported ways to configure or extend them.
+- State the rules that apply throughout the subtree, such as dependency
+  boundaries or required checks. Keep inherited rules in their owning guide.
+
+Make every local guide reachable from its nearest ancestor guide. Link to code
+or owning records for details, and update routes when entry points or module
+boundaries change.
+
+Before adding a new implementation, use the guides and search the code for a
+suitable module, command, or extension point. Reuse, configure, or extend it
+when it fits the task.
+
+## Repository-specific instructions and skills
 
 Add repository skills under `.agents/skills/` when a repeatable procedure has
 been exercised. If it relies on project tools, keep the commands in versioned
