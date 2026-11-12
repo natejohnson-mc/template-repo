@@ -62,8 +62,13 @@ Add directory-specific `AGENTS.md` files only where additional recurring rules
 are needed. Link them from the routing table or owning record.
 
 Add repository skills under `.agents/skills/` when a repeatable procedure has
-been exercised and its commands exist in versioned source. Each skill should
-call those tools and link to its owning documentation. For automatically
-selected skills, record the invocation trigger and link here. Explicitly invoked
-skills may remain unlinked; describe their invocation in their skill metadata.
-This starter includes no repository skills.
+been exercised. If it relies on project tools, keep the commands in versioned
+source and have the skill call those tools and link to their owning
+documentation.
+For automatically selected skills, record the invocation trigger and link here.
+Explicitly invoked skills may remain unlinked. Describe their invocation in
+their skill metadata.
+
+Use [`$refactor-to-template`](.agents/skills/refactor-to-template/SKILL.md) when
+asked to refactor an existing repository to follow this template. Invoke it
+with the target repository path from a chat that can access both checkouts.
