@@ -1,5 +1,9 @@
 # Repository starter
 
+> **Retired.** The maintained starter and its repository refactoring skill
+> moved to the private Home Repo. This public repository preserves the final
+> public version for reference.
+
 This template provides predefined documentation destinations for people and AI
 agents. It includes no application code, selected language, development
 environment, CI configuration, or deployment tooling.
